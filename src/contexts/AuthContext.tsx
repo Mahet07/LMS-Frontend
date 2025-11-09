@@ -30,7 +30,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [token, setToken] = useState<string | null>(null);
   const navigate = useNavigate();
 
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/auth';
+  const API_URL = `${import.meta.env.VITE_API_URL || 'http://localhost:8080/api'}/auth`;
 
   // 🔹 Load user and token from localStorage on mount
   useEffect(() => {
@@ -65,24 +65,28 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   // 🔹 SIGNUP
-  const signup = async (email: string, password: string, name: string, role: UserRole): Promise<boolean> => {
-    try {
-      const res = await axios.post(`${API_URL}/signup`, { email, password, name, role });
-      const newUser: User = res.data;
+// 🔹 SIGNUP (FIXED)
+const signup = async (email: string, password: string, name: string, role: UserRole): Promise<boolean> => {
+  try {
+    const res = await axios.post(`${API_URL}/signup`, { email, password, name, role });
 
-      setUser(newUser);
-      if (newUser.token) {
-        setToken(newUser.token);
-        localStorage.setItem('token', newUser.token);
-      }
-      localStorage.setItem('user', JSON.stringify(newUser));
+    // ✅ Extract correct fields
+    const { token, user } = res.data;
 
-      return true;
-    } catch (err) {
-      console.error('Signup error:', err);
-      return false;
-    }
-  };
+    const newUser: User = { ...user, token };
+    setUser(newUser);
+    setToken(token);
+
+    localStorage.setItem('user', JSON.stringify(newUser));
+    localStorage.setItem('token', token);
+
+    return true;
+  } catch (err) {
+    console.error('Signup error:', err);
+    return false;
+  }
+};
+
 
   // 🔹 LOGOUT
   const logout = () => {
