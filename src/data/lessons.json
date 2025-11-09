@@ -1,0 +1,152 @@
+[
+  {
+    "id": "lesson-1",
+    "courseId": "course-1",
+    "title": "Introduction to Web Development",
+    "description": "Overview of web technologies and development roadmap",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/UB1O30fR-EE",
+    "duration": "15:30",
+    "order": 1
+  },
+  {
+    "id": "lesson-2",
+    "courseId": "course-1",
+    "title": "HTML Basics",
+    "description": "Learn HTML tags, elements, and document structure",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/qz0aGYrrlhU",
+    "duration": "22:45",
+    "order": 2
+  },
+  {
+    "id": "lesson-3",
+    "courseId": "course-1",
+    "title": "CSS Fundamentals",
+    "description": "Styling web pages with CSS properties and selectors",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/1PnVor36_40",
+    "duration": "28:15",
+    "order": 3
+  },
+  {
+    "id": "lesson-4",
+    "courseId": "course-2",
+    "title": "Python Programming Basics",
+    "description": "Variables, data types, and control structures in Python",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/rfscVS0vtbw",
+    "duration": "35:20",
+    "order": 1
+  },
+  {
+    "id": "lesson-5",
+    "courseId": "course-2",
+    "title": "NumPy for Data Analysis",
+    "description": "Working with arrays and numerical operations",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/QUT1VHiLmmI",
+    "duration": "42:10",
+    "order": 2
+  },
+  {
+    "id": "lesson-6",
+    "courseId": "course-2",
+    "title": "Data Visualization with Matplotlib",
+    "description": "Creating charts and graphs for data insights",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/3Xc3CA655Y4",
+    "duration": "38:55",
+    "order": 3
+  },
+  {
+    "id": "lesson-7",
+    "courseId": "course-3",
+    "title": "Design Thinking Process",
+    "description": "Understanding user-centered design methodology",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/_r0VX-aU_T8",
+    "duration": "25:40",
+    "order": 1
+  },
+  {
+    "id": "lesson-8",
+    "courseId": "course-3",
+    "title": "Wireframing and Prototyping",
+    "description": "Creating low and high-fidelity prototypes",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/qpH7-KFWZRI",
+    "duration": "32:25",
+    "order": 2
+  },
+  {
+    "id": "lesson-9",
+    "courseId": "course-3",
+    "title": "Color Theory and Typography",
+    "description": "Mastering visual design principles",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/AvgCkHrcj90",
+    "duration": "28:50",
+    "order": 3
+  },
+  {
+    "id": "lesson-10",
+    "courseId": "course-4",
+    "title": "React Native Setup",
+    "description": "Environment setup and project initialization",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/0-S5a0eXPoc",
+    "duration": "18:30",
+    "order": 1
+  },
+  {
+    "id": "lesson-11",
+    "courseId": "course-4",
+    "title": "Components and Props",
+    "description": "Building reusable React Native components",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/qSRrxpdMpVc",
+    "duration": "45:15",
+    "order": 2
+  },
+  {
+    "id": "lesson-12",
+    "courseId": "course-4",
+    "title": "Navigation in React Native",
+    "description": "Implementing navigation with React Navigation",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/nQVCkqvU1uE",
+    "duration": "40:20",
+    "order": 3
+  },
+  {
+    "id": "lesson-13",
+    "courseId": "course-5",
+    "title": "SEO Fundamentals",
+    "description": "Search engine optimization best practices",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/DvwS7cV9GmQ",
+    "duration": "30:45",
+    "order": 1
+  },
+  {
+    "id": "lesson-14",
+    "courseId": "course-5",
+    "title": "Social Media Marketing",
+    "description": "Creating effective social media campaigns",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/WKLkxT8WIzg",
+    "duration": "35:10",
+    "order": 2
+  },
+  {
+    "id": "lesson-15",
+    "courseId": "course-5",
+    "title": "Google Analytics Mastery",
+    "description": "Track and analyze website performance",
+    "type": "video",
+    "url": "https://www.youtube.com/embed/gBeMELnxdIg",
+    "duration": "42:30",
+    "order": 3
+  }
+]

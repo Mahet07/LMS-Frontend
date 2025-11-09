@@ -1,0 +1,90 @@
+[
+  {
+    "id": "admin-1",
+    "email": "admin@edulearn.com",
+    "password": "admin123",
+    "name": "Sarah Johnson",
+    "role": "admin",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin1"
+  },
+  {
+    "id": "admin-2",
+    "email": "admin2@edulearn.com",
+    "password": "admin123",
+    "name": "Michael Chen",
+    "role": "admin",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin2"
+  },
+  {
+    "id": "admin-3",
+    "email": "admin3@edulearn.com",
+    "password": "admin123",
+    "name": "Emily Rodriguez",
+    "role": "admin",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin3"
+  },
+  {
+    "id": "instructor-1",
+    "email": "instructor@edulearn.com",
+    "password": "instructor123",
+    "name": "Dr. James Wilson",
+    "role": "instructor",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=instructor1"
+  },
+  {
+    "id": "instructor-2",
+    "email": "instructor2@edulearn.com",
+    "password": "instructor123",
+    "name": "Prof. Maria Garcia",
+    "role": "instructor",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=instructor2"
+  },
+  {
+    "id": "instructor-3",
+    "email": "instructor3@edulearn.com",
+    "password": "instructor123",
+    "name": "Dr. David Kim",
+    "role": "instructor",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=instructor3"
+  },
+  {
+    "id": "student-1",
+    "email": "student@edulearn.com",
+    "password": "student123",
+    "name": "Alex Thompson",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student1"
+  },
+  {
+    "id": "student-2",
+    "email": "student2@edulearn.com",
+    "password": "student123",
+    "name": "Sophie Martinez",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student2"
+  },
+  {
+    "id": "student-3",
+    "email": "student3@edulearn.com",
+    "password": "student123",
+    "name": "Ryan Lee",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student3"
+  },
+  {
+    "id": "student-4",
+    "email": "student4@edulearn.com",
+    "password": "student123",
+    "name": "Jessica Brown",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student4"
+  },
+  {
+    "id": "student-5",
+    "email": "student5@edulearn.com",
+    "password": "student123",
+    "name": "Daniel White",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=student5"
+  }
+]

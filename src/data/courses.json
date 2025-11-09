@@ -1,0 +1,67 @@
+[
+
+  {
+    "id": "course-2",
+    "title": "Data Science with Python",
+    "description": "Learn data analysis, visualization, and machine learning with Python libraries",
+    "instructorId": "instructor-2",
+    "instructorName": "Prof. Maria Garcia",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "duration": "35 hours",
+    "price": 129.99,
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
+    "isApproved": true,
+    "totalLessons": 10,
+    "enrolledStudents": 189,
+    "rating": 4.9
+  },
+  {
+    "id": "course-3",
+    "title": "UI/UX Design Fundamentals",
+    "description": "Create stunning user interfaces and experiences using modern design principles",
+    "instructorId": "instructor-3",
+    "instructorName": "Dr. David Kim",
+    "category": "Design",
+    "level": "Beginner",
+    "duration": "25 hours",
+    "price": 79.99,
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=450&fit=crop",
+    "isApproved": true,
+    "totalLessons": 8,
+    "enrolledStudents": 312,
+    "rating": 4.7
+  },
+  {
+    "id": "course-4",
+    "title": "Mobile App Development with React Native",
+    "description": "Build cross-platform mobile applications using React Native and Expo",
+    "instructorId": "instructor-1",
+    "instructorName": "Dr. James Wilson",
+    "category": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "45 hours",
+    "price": 149.99,
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
+    "isApproved": true,
+    "totalLessons": 15,
+    "enrolledStudents": 156,
+    "rating": 4.6
+  },
+  {
+    "id": "course-5",
+    "title": "Digital Marketing Masterclass",
+    "description": "Master SEO, social media marketing, content marketing, and analytics",
+    "instructorId": "instructor-2",
+    "instructorName": "Prof. Maria Garcia",
+    "category": "Marketing",
+    "level": "Beginner",
+    "duration": "30 hours",
+    "price": 89.99,
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=450&fit=crop",
+    "isApproved": true,
+    "totalLessons": 12,
+    "enrolledStudents": 278,
+    "rating": 4.5
+  }
+]
